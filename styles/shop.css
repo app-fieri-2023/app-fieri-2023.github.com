@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+html {
+    background-color: black;
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+body {
+    margin:0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.title-bar {
+    text-align: center;
+    background-image: url("images/dark-wood-overlay.jpg");
+    background-size: cover;
+    box-shadow: 0 0 10px black;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.guy-sign {
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.arrow {
+    width: 10%;
+    filter: invert();
+    float: left;
+    margin-top: 7%;
+    margin-left: 5%;
+    position: fixed;
+    transition: transform 0.1s ease-in-out;
+}
+
+.arrow:hover {
+    transform: translateX(-10%);
+}
+
+.santos-logo {
+    width: 100%;
+}
+
+.creators {
+    color:white;
+    text-align: center;
+    font-family:'Ceviche One', cursive;
+    padding: 25px;
+    background-color: rgb(75,75,75);
+    background-image: url("images/shop-santo/santos-bottles.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-blend-mode: multiply;
+}
+
+.bevmo {
+    width: 50%;
+    float: left;
+    filter:brightness(0) invert();
+}
+
+.wine {
+    width: 50%;
+    float: right;
+    filter:brightness(0) invert();
+}

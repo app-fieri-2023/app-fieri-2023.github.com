@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+html {
+    background-image: url("images/wood-background.jpg");
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+body {
+    margin:0px;
+}
+
+.title-bar {
+    text-align: center;
+    background-image: url("images/dark-wood-overlay.jpg");
+    background-size: cover;
+    box-shadow: 0 0 10px black;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.guy-sign {
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.arrow {
+    width: 10%;
+    filter: invert();
+    float: left;
+    margin-top: 7%;
+    margin-left: 5%;
+    position: fixed;
+    transition: transform 0.1s ease-in-out;
+}
+
+.arrow:hover {
+    transform: translateX(-10%);
+}

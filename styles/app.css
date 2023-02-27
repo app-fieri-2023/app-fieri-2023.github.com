@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+html {
+    background-image: url("images/wood-background.jpg");
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+body {
+    margin:0px;
+}
+
+#title-bar {
+    text-align: center;
+    background-image: url("images/dark-wood-overlay.jpg");
+    background-size: cover;
+    box-shadow: 0 0 10px black;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+#guy-sign {
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#p-t-g {
+    padding-top:15px;
+    padding-bottom:15px;
+    line-height: 5px;
+    font-family: 'Ceviche One', cursive;
+    font-size: 175%;
+    text-align: center;
+    background-color: rgb(150,50,50);
+    height: 50px;
+    line-height: 160%;
+    margin: 5px; margin-bottom: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#c-recipe {
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 175%;
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+    background-image: url("images/cocktail-recipies.png");
+    background-size:cover;
+    background-position-y: -20px;
+    width: 45%;
+    height: 100px;
+    float: left;
+    line-height: 95px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin: 5px; margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#f-recipe {
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 175%;
+    text-align: center;
+    font-family: 'Ceviche One', cursive;    
+    background-image: url("images/food-recipies.jpg");
+    background-size: cover;
+    background-position-y: center;
+    width: 45%;
+    height: 100px;
+    float: right;
+    line-height: 95px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin: 5px; margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#shop {
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 175%;
+    text-align: center;
+    font-family: 'Ceviche One', cursive;    
+    background-image: url("images/shopsanto.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 50px;
+    line-height: 160%;
+    margin: 5px; margin-top: 160px; margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    transition: transform 0.2s ease-in-out;
+}
+
+#contact {
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 175%;
+    text-align: center;
+    font-family: 'Ceviche One', cursive; 
+    background-color: rgb(75,75,75);   
+    background-image: url("images/snapshot-Santo.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position-y: center;
+    height: 50px;
+    line-height: 160%;
+    margin: 5px; margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    transition: transform 0.2s ease-in-out;
+}
+
+#credits {
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+    color: rgb(25, 20, 20);
+}
+
+#game-title {
+    color: rgb(235, 213, 88);
+    font-size: 75%;
+}
+
+#p-t-g:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 5px black;
+}
+
+#c-recipe:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 5px black;
+}
+
+#f-recipe:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 5px black;
+}
+
+#shop:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 5px black;
+}
+
+#contact:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 5px black;
+}
+
