@@ -32,11 +32,10 @@ body::-webkit-scrollbar {
 }
 
 .arrow {
-    width: 5%;
+    width: 3%;
     filter: invert();
     float: left;
-    margin-top: 7%;
-    margin-left: 5%;
+    margin-top: 1%;
     position: fixed;
     transition: transform 0.1s ease-in-out;
 }
